@@ -1,0 +1,146 @@
+
+@color-orange: #f6762b;
+@color-head: #333;
+@color-body: #aaa;
+@color-body-bg: #F3F3F3;
+@border-body-head-bg: #F7F7F7;
+@color-shadow: #bbb;
+@color-text-gray: #999;
+
+/*侧边栏*/
+.aside_bar{
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+  background:#fff;
+  z-index: 9999;
+  ul li{
+    position: relative;
+    line-height: 30px;
+    padding: 10px;
+    margin-left:0;
+    border-bottom: solid 1px #F3F3F3;
+    text-align: center;
+  }
+  .aside_default{
+    display: block;
+    font-size: .8em;
+    color: #aaa;
+    .aside_img{
+      width: 50%;
+      margin-left:27%;
+    }
+  }
+  .aside_reverse{
+    display: none;
+    color: #fff ;
+    font-size: .8em;
+    .aside_img {
+      width: 50%;
+      margin-left: 27%;
+    }
+  }
+
+  .aside_content{
+    display: none;
+    width: 436%;
+    position: absolute;
+    top: 0;
+    left: -335px;
+    padding-top:15px ;
+    padding-bottom:15px ;
+    color: #fff;
+    background: #f6762b;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    .aside_erweima{
+      display: inline-block;
+      width: 120px;
+      .aside_pic{
+        margin-left: 15px;
+        img{
+          width: 90px;
+        }
+      }
+
+    }
+    .list_item{
+      padding: 2px;
+      margin-bottom:4px;
+    }
+    .list_item:hover{
+      background-color:#fff;
+      border: 2px @color-orange dashed;
+      border-radius: 2px;
+    }
+  }
+}
+
+.aside_reverse{
+  display: none;
+  color: #fff ;
+}
+.aside_bar ul li:hover{
+  margin-left: -1px;
+  background-color:@color-orange;
+}
+.aside_bar ul li:hover .aside_content{
+  display: block ;
+}
+.aside_bar ul li:hover .aside_default{
+  display: none ;
+}
+.aside_bar ul li:hover .aside_reverse{
+  display: block ;
+}
+// 侧边栏收藏
+.aside_collection {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  width: 330px;
+  height: 100%;
+  background: #fff;
+  overflow:scroll;
+  box-shadow: 2px 2px 2px 2px #ccc;
+  .aside_collection_title {
+    font-size: 18px;
+    color: @color-text-gray;
+    height: 48px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  .close{
+    float:right;
+  }
+
+  .bookmark {
+    padding:6px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 176px;
+    width: 290px;
+    .name{
+      font-size: 18px;
+      color: #333;
+    }
+    .info {
+      display: inline-block;
+      font-size: 14px;
+      width: 100%;
+      line-height: 24px;
+      margin-left: 4px;
+      margin-top: 12px;
+      color: #666;
+      .yield{
+        font-size: 18px;
+        color: @color-orange;
+      }
+    }
+  }
+
+}
+.fancybox-lock-test {
+  overflow-y: hidden !important;
+}

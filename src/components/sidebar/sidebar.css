@@ -1,0 +1,131 @@
+/*侧边栏*/
+.aside_bar {
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+  background: #fff;
+  z-index: 9999;
+}
+.aside_bar ul li {
+  position: relative;
+  line-height: 30px;
+  padding: 10px;
+  margin-left: 0;
+  border-bottom: solid 1px #F3F3F3;
+  text-align: center;
+}
+.aside_bar .aside_default {
+  display: block;
+  font-size: .8em;
+  color: #aaa;
+}
+.aside_bar .aside_default .aside_img {
+  width: 50%;
+  margin-left: 27%;
+}
+.aside_bar .aside_reverse {
+  display: none;
+  color: #fff ;
+  font-size: .8em;
+}
+.aside_bar .aside_reverse .aside_img {
+  width: 50%;
+  margin-left: 27%;
+}
+.aside_bar .aside_content {
+  display: none;
+  width: 436%;
+  position: absolute;
+  top: 0;
+  left: -335px;
+  padding-top: 15px ;
+  padding-bottom: 15px ;
+  color: #fff;
+  background: #f6762b;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+.aside_bar .aside_content .aside_erweima {
+  display: inline-block;
+  width: 120px;
+}
+.aside_bar .aside_content .aside_erweima .aside_pic {
+  margin-left: 15px;
+}
+.aside_bar .aside_content .aside_erweima .aside_pic img {
+  width: 90px;
+}
+.aside_bar .aside_content .list_item {
+  padding: 2px;
+  margin-bottom: 4px;
+}
+.aside_bar .aside_content .list_item:hover {
+  background-color: #fff;
+  border: 2px #f6762b dashed;
+  border-radius: 2px;
+}
+.aside_reverse {
+  display: none;
+  color: #fff ;
+}
+.aside_bar ul li:hover {
+  margin-left: -1px;
+  background-color: #f6762b;
+}
+.aside_bar ul li:hover .aside_content {
+  display: block ;
+}
+.aside_bar ul li:hover .aside_default {
+  display: none ;
+}
+.aside_bar ul li:hover .aside_reverse {
+  display: block ;
+}
+.aside_collection {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  width: 330px;
+  height: 100%;
+  background: #fff;
+  overflow: scroll;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+.aside_collection .aside_collection_title {
+  font-size: 18px;
+  color: #999;
+  height: 48px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.aside_collection .close {
+  float: right;
+}
+.aside_collection .bookmark {
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 176px;
+  width: 290px;
+}
+.aside_collection .bookmark .name {
+  font-size: 18px;
+  color: #333;
+}
+.aside_collection .bookmark .info {
+  display: inline-block;
+  font-size: 14px;
+  width: 100%;
+  line-height: 24px;
+  margin-left: 4px;
+  margin-top: 12px;
+  color: #666;
+}
+.aside_collection .bookmark .info .yield {
+  font-size: 18px;
+  color: #f6762b;
+}
+.fancybox-lock-test {
+  overflow-y: hidden !important;
+}

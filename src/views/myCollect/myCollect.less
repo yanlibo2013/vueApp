@@ -1,0 +1,77 @@
+@color-orange: #f6762b;
+@body-bg:#F3F3F3;
+@border-border:#F0F0F0;
+@white:#fff;
+@font-color-head:#333;
+@font-color-body:#7d7d7d;
+@font-blue:#588eef;
+@hover-bg:#DCDCDC;
+
+.myCollect{
+  margin: 0 10px ;
+  .coll_item {
+    .coll_head {
+      text-align: left;
+      line-height: 54px;
+      font-size: 1.2em;
+      color: @color-orange;
+      border-bottom: 2px solid @border-border;
+      .coll_font{
+        padding-bottom:18px;
+        border-bottom: 2px solid @color-orange;
+      }
+    }
+    .coll_body{
+      width: 100%;
+      color: @font-color-body;
+      .coll_item {
+        position: relative;
+        margin: 0 -15px;
+        .item_title {
+          font-size: 1.2em;
+          line-height: 30px;
+        }
+        .item_title:hover {
+          color: @color-orange;
+        }
+        .item_all_mark {
+          line-height: 20px;
+          .item_mark {
+            border: 1px solid #fff;
+            margin-right: 15px;
+            padding: 1px 8px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            color: #fff;
+            background-color: @color-orange;
+          }
+        }
+
+        .item_attr {
+          margin-left: -35px;
+          li {
+            text-align: center;
+            width: 120px;
+            line-height: 25px;
+            float: left;
+          }
+          .item_value {
+            font-size: 1.2em;
+            color: rgba(0,0,0,.7);
+          }
+          .item_key {
+            font-size: 1.0em;
+            color: #aaa;
+          }
+        }
+
+      }
+      .coll_item:hover {
+        //box-shadow: 0 0 6px #aaa;
+      }
+
+    }
+
+  }
+}

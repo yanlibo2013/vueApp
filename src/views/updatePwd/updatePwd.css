@@ -1,0 +1,27 @@
+.updateInfo {
+  margin: 0 10px ;
+}
+.updateInfo .pwd_item .pwd_head {
+  text-align: left;
+  line-height: 54px;
+  font-size: 1.2em;
+  color: #f6762b;
+  border-bottom: 2px solid #F0F0F0;
+}
+.updateInfo .pwd_item .pwd_head .pwd_font {
+  padding-bottom: 18px;
+  border-bottom: 2px solid #f6762b;
+}
+.updateInfo .pwd_item .pwd_body {
+  margin-top: 60px;
+  width: 100%;
+  color: #7d7d7d;
+  text-align: left;
+}
+.updateInfo .pwd_item .pwd_body .pwdRuleForm {
+  margin: 10% 20%;
+}
+.updateInfo .pwd_item .pwd_body .pwdRuleForm .pwd_input {
+  line-height: 7px;
+  width: 300px;
+}

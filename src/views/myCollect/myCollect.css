@@ -1,0 +1,59 @@
+.myCollect {
+  margin: 0 10px ;
+}
+.myCollect .coll_item .coll_head {
+  text-align: left;
+  line-height: 54px;
+  font-size: 1.2em;
+  color: #f6762b;
+  border-bottom: 2px solid #F0F0F0;
+}
+.myCollect .coll_item .coll_head .coll_font {
+  padding-bottom: 18px;
+  border-bottom: 2px solid #f6762b;
+}
+.myCollect .coll_item .coll_body {
+  width: 100%;
+  color: #7d7d7d;
+}
+.myCollect .coll_item .coll_body .coll_item {
+  position: relative;
+  margin: 0 -15px;
+}
+.myCollect .coll_item .coll_body .coll_item .item_title {
+  font-size: 1.2em;
+  line-height: 30px;
+}
+.myCollect .coll_item .coll_body .coll_item .item_title:hover {
+  color: #f6762b;
+}
+.myCollect .coll_item .coll_body .coll_item .item_all_mark {
+  line-height: 20px;
+}
+.myCollect .coll_item .coll_body .coll_item .item_all_mark .item_mark {
+  border: 1px solid #fff;
+  margin-right: 15px;
+  padding: 1px 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #f6762b;
+}
+.myCollect .coll_item .coll_body .coll_item .item_attr {
+  margin-left: -35px;
+}
+.myCollect .coll_item .coll_body .coll_item .item_attr li {
+  text-align: center;
+  width: 120px;
+  line-height: 25px;
+  float: left;
+}
+.myCollect .coll_item .coll_body .coll_item .item_attr .item_value {
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.7);
+}
+.myCollect .coll_item .coll_body .coll_item .item_attr .item_key {
+  font-size: 1.0em;
+  color: #aaa;
+}

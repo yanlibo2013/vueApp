@@ -1,0 +1,47 @@
+/*.ms-controller{
+  visibility: hidden;
+}*/
+.userChange {
+  margin: 0 20px ;
+}
+.userChange .order_item .info_head {
+  text-align: left;
+  line-height: 54px;
+  font-size: 1.2em;
+  color: #f6762b;
+  border-bottom: 2px solid #F0F0F0;
+}
+.userChange .order_item .info_head .info_font {
+  padding-bottom: 18px;
+  border-bottom: 2px solid #f6762b;
+}
+.userChange .order_item .info_body {
+  width: 100%;
+  color: #7d7d7d;
+}
+.order_detail {
+  margin-top: 20px;
+  border-radius: 2px;
+  line-height: 40px;
+}
+.order_detail .order_list .change_item {
+  border: 1px solid #F0F0F0;
+  margin-bottom: 20px;
+}
+.order_detail .order_list .change_item .item_head {
+  text-align: left;
+  margin: 0 15px;
+  font-size: 1.2em;
+}
+.order_detail .order_list .change_item .item_head .item_name {
+  float: left;
+}
+.order_detail .order_list .change_item .item_head .item_btn {
+  float: right;
+  color: #f6762b;
+}
+.order_detail .order_list .change_item .item_change ul li {
+  float: left;
+  width: 33.3333333%;
+  margin: 5px 0;
+}
